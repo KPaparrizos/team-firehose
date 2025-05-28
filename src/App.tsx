@@ -12,10 +12,15 @@ function App() {
 
   return (
     <div
-      style={{ display: "flex", flexDirection: "column", alignItems: "center"}}
+      style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%"}}
     >
       <Navbar></Navbar>
-      {component}
+      <div style={{
+        paddingTop: "6rem",  
+        width: "100%"       
+      }}>
+        {component}
+      </div>
     </div>
   )
 }

@@ -21,10 +21,10 @@ function Navbar() {
         display: "flex",
         justifyContent: "space-around",
         alignItems: "center",
-        width: "100%",
         height: "6rem",
         position: "fixed",
         top: "0",
+        width: "calc(100% - 16.666px)",
         fontFamily: "League Spartan",
         fontWeight: "bold",
         zIndex: "1"
