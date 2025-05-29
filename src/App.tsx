@@ -1,6 +1,11 @@
 import './App.css'
 import Navbar from './components/Navbar'
+import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
+import ResearchPage from './pages/ResearchPage';
+import TeamPage from './pages/TeamPage';
+import TimelinePage from './pages/TimelinePage';
+
 
 function App() {
   let component
@@ -8,6 +13,19 @@ function App() {
     case "/":
       component = <HomePage></HomePage>
       break;
+    case "/research":
+      component = <ResearchPage></ResearchPage>
+      break;
+    case "/meet-the-team":
+      component = <TeamPage></TeamPage>
+      break;
+    case "/timeline":
+      component = <TimelinePage></TimelinePage>
+      break;
+    case "/contact-us":
+      component = <ContactPage></ContactPage>
+      break;
+
   }
 
   return (

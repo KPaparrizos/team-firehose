@@ -1,13 +1,11 @@
 import backgroundImage from '../assets/firemanfirefighter-training-firefighters-using-water-260nw-2505564303.png'
 import nozzleImage from '../assets/nozzle.png'
-import gemstoneLogo from "../assets/g_honors_college.png"
-import honorsLogo from "../assets/honors_logo.png"
-import flameOverlay from "../assets/fire-spark-overlay-smoke-flame-260nw-2306304597.png"
 import '../App.css'
+import Footer from '../components/Footer'
 
 function HomePage() {
     return(
-        <div style={{ backgroundColor: "#000000", width: "100%", color: "white" }}>
+        <div style={{ backgroundColor: "#000000", width: "100%", color: "white", display: "flex", flexFlow: "column", minHeight: "88vh", flexGrow: "1", justifyContent: "space-between" }}>
             <div style={{ position: "relative", display: "flex", alignItems: "center", textAlign: "center", justifyContent: "center"}}>
                 <img style={{ width: "100%"}} src={backgroundImage} alt="Firefighters putting out a fire using firehoses"></img>
                 <div style={{ position: "absolute", top: "10%" }}>
@@ -34,16 +32,7 @@ function HomePage() {
                 </div>
             </div>
 
-            <div style={{ display: "flex", justifyContent: "space-evenly", paddingBottom: "1rem" }}> {/* Optional: Added paddingBottom if flameOverlay is last element */}
-                <a href="https://gemstone.umd.edu/">
-                    <img style={{ width: "7vw", height: "auto" }} src={gemstoneLogo} alt="Gemstone logo"></img>
-                </a>
-                <p style={{ color: "gray", marginTop: "6vw" }}>Made with ❤️ at UMD</p>
-                <a style={{ marginTop: "1.25vw" }} href="http://www.honors.umd.edu">
-                    <img style={{ width: "7vw", height: "auto" }} src={honorsLogo} alt="Honors logo"></img>
-                </a>
-            </div>
-            <img style={{ width: "100%", display: 'block', marginBottom: "0" }} src={flameOverlay} alt="Flame overlay"></img>
+            <Footer></Footer>
         </div>
     )
 }

@@ -24,7 +24,8 @@ function Navbar() {
         height: "6rem",
         position: "fixed",
         top: "0",
-        width: "calc(100% - 16.666px)",
+        left: 0,
+        right: 0,
         fontFamily: "League Spartan",
         fontWeight: "bold",
         zIndex: "1"
