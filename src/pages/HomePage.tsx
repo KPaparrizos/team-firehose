@@ -89,7 +89,7 @@ function HomePage() {
           <p
             style={{
               fontFamily: "inter",
-              fontSize: "2vw",
+              fontSize: "1.75vw",
               fontWeight: "700",
               margin: "0 auto",
               width: "55%",
