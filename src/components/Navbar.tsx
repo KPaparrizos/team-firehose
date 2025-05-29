@@ -1,6 +1,6 @@
-import "@fontsource/league-spartan"; 
+import "@fontsource/league-spartan";
 import { useState } from "react";
-import '../App.css'
+import "../App.css";
 
 function Navbar() {
   const main = { color: "white", textDecoration: "none" };
@@ -28,18 +28,18 @@ function Navbar() {
         right: 0,
         fontFamily: "League Spartan",
         fontWeight: "bold",
-        zIndex: "1"
+        zIndex: "1",
       }}
     >
-      <h1 style={{textAlign: "left", fontSize:"2.25vw"}}>
+      <h1 style={{ textAlign: "left", fontSize: "2.25vw" }}>
         <a
-            onMouseEnter={() => setTitleColor(hover)}
-            onMouseLeave={() => setTitleColor(main)}
-            style={titleColor}
-            href="/"
-          >
-            Team FIREHOSE
-          </a>
+          onMouseEnter={() => setTitleColor(hover)}
+          onMouseLeave={() => setTitleColor(main)}
+          style={titleColor}
+          href="/"
+        >
+          Team FIREHOSE
+        </a>
       </h1>
       <ul
         style={{
@@ -47,7 +47,7 @@ function Navbar() {
           margin: "0",
           listStyle: "none",
           display: "flex",
-          fontSize:"1.75vw",
+          fontSize: "1.75vw",
           gap: "1rem",
         }}
       >
