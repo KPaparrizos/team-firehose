@@ -25,10 +25,11 @@ function ContactPage() {
             alignItems: "center",
             textAlign: "center",
             justifyContent: "center",
+            flexDirection: "column"
           }}
         >
-          <div style={{ position: "absolute", top: "10%" }}>
-            <h1 style={{ fontSize: "3vw", marginBottom: "4vw" }}>Contact Us</h1>
+          <div style={{ top: "10%" }}>
+            <h1 style={{ fontSize: "3vw", marginBottom: "2vw" }}>Contact Us</h1>
             <div
               style={{
                 display: "flex",
@@ -47,6 +48,7 @@ function ContactPage() {
               <h2
                 style={{
                   fontSize: "1.75vw",
+                  fontFamily: "inter",
                   marginTop: "0",
                   marginBottom: "0",
                   textAlign: "left",
@@ -73,6 +75,7 @@ function ContactPage() {
               <h2
                 style={{
                   fontSize: "1.75vw",
+                  fontFamily: "inter",
                   marginTop: "0",
                   marginBottom: "0",
                   textAlign: "left",

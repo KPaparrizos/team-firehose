@@ -23,9 +23,10 @@ function TeamPage() {
             alignItems: "center",
             textAlign: "center",
             justifyContent: "center",
+            flexDirection: "column"
           }}
         >
-          <div style={{ position: "absolute", top: "10%" }}>
+          <div style={{ top: "10%" }}>
             <h1 style={{ fontSize: "3vw", marginBottom: "1rem" }}>
               Meet the Team
             </h1>

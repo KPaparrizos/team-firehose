@@ -1,7 +1,25 @@
+import { useState } from "react";
 import gemstoneLogo from "../assets/g_honors_college.png";
 import honorsLogo from "../assets/honors_logo.png";
 
 function Footer() {
+  const main = {
+    color: "grey",
+    fontSize: "1vw",
+    marginTop: "6vw",
+    marginBottom: "0.5vw",
+    textDecoration: "underline",
+  };
+  let hover = {
+    color: "#3b3b3b",
+    fontSize: "1vw",
+    marginTop: "6vw",
+    marginBottom: "0.5vw",
+    textDecoration: "underline",
+  };
+
+  const [linkColor, setLinkColor] = useState(main);
+
   return (
     <div
       style={{
@@ -29,13 +47,9 @@ function Footer() {
       >
         <a href="mailto:teamfirehose2028@gmail.com">
           <p
-            style={{
-              color: "gray",
-              fontSize: "1vw",
-              marginTop: "6vw",
-              marginBottom: "0.5vw",
-              textDecoration: "underline",
-            }}
+            onMouseEnter={() => setLinkColor(hover)}
+            onMouseLeave={() => setLinkColor(main)}
+            style={linkColor}
           >
             teamfirehose2028@gmail.com
           </p>
