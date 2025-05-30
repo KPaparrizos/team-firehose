@@ -48,7 +48,7 @@ function Navbar() {
           listStyle: "none",
           display: "flex",
           fontSize: "1.75vw",
-          gap: "1rem",
+          gap: "2vw",
         }}
       >
         <li>

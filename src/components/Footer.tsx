@@ -18,7 +18,32 @@ function Footer() {
           alt="Gemstone logo"
         ></img>
       </a>
-      <p style={{ color: "gray", marginTop: "6vw" }}>Made with ❤️ at UMD</p>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+        }}
+      >
+        <a href="mailto:teamfirehose2028@gmail.com">
+          <p
+            style={{
+              color: "gray",
+              fontSize: "1vw",
+              marginTop: "6vw",
+              marginBottom: "0.5vw",
+              textDecoration: "underline",
+            }}
+          >
+            teamfirehose2028@gmail.com
+          </p>
+        </a>
+        <p style={{ color: "gray", fontSize: "1vw", marginTop: "0" }}>
+          Made with ❤️ at UMD
+        </p>
+      </div>
       <a style={{ marginTop: "1.25vw" }} href="http://www.honors.umd.edu">
         <img
           style={{ width: "7vw", height: "auto" }}

@@ -61,8 +61,8 @@ function HomePage() {
         >
           Team FIREHOSE is a Class of 2028 undergraduate research team within
           the University of Maryland, College Park Gemstone Honors Program.
-          FIREHOSE aims to design a new firehose nozzle design that minimizes
-          reaction forces and reduces harm to firefighters.
+          FIREHOSE aims to design a new firehose nozzle that minimizes reaction
+          forces and reduces harm to firefighters.
         </p>
       </div>
 
