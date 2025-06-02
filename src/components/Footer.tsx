@@ -1,7 +1,7 @@
 import { useState } from "react";
 import gemstoneLogo from "../assets/g_honors_college.png";
 import honorsLogo from "../assets/honors_logo.png";
-import '../App.css'
+import "../App.css";
 
 function Footer() {
   const main = {

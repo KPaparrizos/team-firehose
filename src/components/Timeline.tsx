@@ -1,5 +1,5 @@
 import TimelineItem from "./TimelineItem";
-import "../App.css"
+import "../App.css";
 
 function Timeline() {
   const timelineData = [

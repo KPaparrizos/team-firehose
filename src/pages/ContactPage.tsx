@@ -25,7 +25,7 @@ function ContactPage() {
             alignItems: "center",
             textAlign: "center",
             justifyContent: "center",
-            flexDirection: "column"
+            flexDirection: "column",
           }}
         >
           <div style={{ top: "10%" }}>

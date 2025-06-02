@@ -1,6 +1,6 @@
-import '../App.css'
+import "../App.css";
 
-function TimelineItem({data}) {
+function TimelineItem({ data }) {
   return (
     <div className="timeline-item">
       <div className="timeline-item-content">

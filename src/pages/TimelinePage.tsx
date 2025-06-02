@@ -36,11 +36,12 @@ function TimelinePage() {
               fontSize: "1.75vw",
               fontWeight: "700",
               width: "55%",
-              margin: 0
+              margin: 0,
             }}
           >
-            Below is a rough timeline of our research during the Gemstone program. As 
-            we refine our research plan the timeline will be expanded.
+            Below is a rough timeline of our research during the Gemstone
+            program. As we refine our research plan the timeline will be
+            expanded.
           </p>
           <Timeline></Timeline>
         </div>

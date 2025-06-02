@@ -24,10 +24,10 @@ function GalleryPage() {
           textAlign: "center",
           justifyContent: "center",
           flexDirection: "column",
-          marginBottom: "4vw"
+          marginBottom: "4vw",
         }}
       >
-        <div style={{top: "10%" }}>
+        <div style={{ top: "10%" }}>
           <h1 style={{ fontSize: "3vw", marginBottom: "2vw" }}>Gallery</h1>
         </div>
         <div
@@ -58,7 +58,7 @@ function GalleryPage() {
               color: "grey", // Slightly dimmer color for caption
             }}
           >
-            Team FIREHOSE infographic 
+            Team FIREHOSE infographic
           </p>
         </div>
       </div>
