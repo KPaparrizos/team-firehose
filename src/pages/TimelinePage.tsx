@@ -1,5 +1,6 @@
 import "../App.css";
 import Footer from "../components/Footer";
+import Timeline from "../components/Timeline";
 
 function TimelinePage() {
   return (
@@ -23,15 +24,25 @@ function TimelinePage() {
             alignItems: "center",
             textAlign: "center",
             justifyContent: "center",
-            flexDirection: "column"
+            flexDirection: "column",
           }}
         >
           <div style={{ top: "10%" }}>
-            <h1 style={{ fontSize: "3vw", marginBottom: "1rem" }}>Timeline</h1>
-            <h2 style={{ fontSize: "1.75vw", marginTop: "0" }}>
-              Coming soon...
-            </h2>
+            <h1 style={{ fontSize: "3vw", marginBottom: "1vw" }}>Timeline</h1>
           </div>
+          <p
+            style={{
+              fontFamily: "inter",
+              fontSize: "1.75vw",
+              fontWeight: "700",
+              width: "55%",
+              margin: 0
+            }}
+          >
+            Below is a rough timeline of our research during the Gemstone program. As 
+            we refine our research plan the timeline will be expanded.
+          </p>
+          <Timeline></Timeline>
         </div>
       </div>
 

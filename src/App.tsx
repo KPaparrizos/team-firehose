@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import ContactPage from './pages/ContactPage';
 import HomePage from './pages/HomePage';
-import ResearchPage from './pages/ResearchPage';
+import GalleryPage from './pages/GalleryPage';
 import TeamPage from './pages/TeamPage';
 import TimelinePage from './pages/TimelinePage';
 
@@ -13,8 +13,8 @@ function App() {
     case "/":
       component = <HomePage></HomePage>
       break;
-    case "/research":
-      component = <ResearchPage></ResearchPage>
+    case "/gallery":
+      component = <GalleryPage></GalleryPage>
       break;
     case "/meet-the-team":
       component = <TeamPage></TeamPage>

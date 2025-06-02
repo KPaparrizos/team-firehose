@@ -2,7 +2,7 @@ import "../App.css";
 import Footer from "../components/Footer";
 import infographic from "../assets/1.png";
 
-function ResearchPage() {
+function GalleryPage() {
   return (
     <div
       style={{
@@ -28,7 +28,7 @@ function ResearchPage() {
         }}
       >
         <div style={{top: "10%" }}>
-          <h1 style={{ fontSize: "3vw", marginBottom: "2vw" }}>Research</h1>
+          <h1 style={{ fontSize: "3vw", marginBottom: "2vw" }}>Gallery</h1>
         </div>
         <div
           style={{
@@ -68,4 +68,4 @@ function ResearchPage() {
   );
 }
 
-export default ResearchPage;
+export default GalleryPage;

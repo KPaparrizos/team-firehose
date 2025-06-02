@@ -49,6 +49,7 @@ function ContactPage() {
                 style={{
                   fontSize: "1.75vw",
                   fontFamily: "inter",
+                  fontWeight: "700",
                   marginTop: "0",
                   marginBottom: "0",
                   textAlign: "left",
@@ -76,6 +77,7 @@ function ContactPage() {
                 style={{
                   fontSize: "1.75vw",
                   fontFamily: "inter",
+                  fontWeight: "700",
                   marginTop: "0",
                   marginBottom: "0",
                   textAlign: "left",

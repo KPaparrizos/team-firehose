@@ -66,9 +66,9 @@ function Navbar() {
             onMouseEnter={() => setSecondColor(hover)}
             onMouseLeave={() => setSecondColor(main)}
             style={secondColor}
-            href="/research"
+            href="/gallery"
           >
-            Research
+            Gallery
           </a>
         </li>
         <li>
