@@ -39,3 +39,24 @@
   margin-bottom: 0.5vw;
   text-decoration: underline;
 }
+
+@media only screen and (max-aspect-ratio: 1/1) {
+  .footer-container img {
+    width: 14vw;
+    height: auto;
+  }
+  .footer-center p {
+    font-size: 3vw;
+  }
+  .footer-center-link p {
+    font-size: 3vw;
+    margin-top: 6vw;
+    margin-bottom: 0.5vw;
+  }
+
+  .footer-center-link p:hover {
+    font-size: 3vw;
+    margin-top: 6vw;
+    margin-bottom: 0.5vw;
+  }
+}

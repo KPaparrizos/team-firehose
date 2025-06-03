@@ -39,3 +39,15 @@
 .timeline-page-footer {
   width: 100%;
 }
+
+
+@media only screen and (max-aspect-ratio: 1/1) {
+  .timeline-page-content p {
+    font-size: 3vw;
+    width: 70%;
+  }
+  .timeline-page-title h1 {
+    font-size: 8vw;
+    margin-bottom: 4vw;
+  }
+}

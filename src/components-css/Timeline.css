@@ -14,3 +14,14 @@
   width: 0.4vw;
   height: 100%;
 }
+
+@media only screen and (max-aspect-ratio: 1/1) {
+  .timeline-container {
+    width: 65%;
+    margin: 8vw;
+  }
+  .timeline-container::after{
+    left: calc(50% - 0.5vw);
+    width: 1vw;
+  }
+}
