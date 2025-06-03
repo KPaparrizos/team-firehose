@@ -1,4 +1,5 @@
 import "../App.css";
+import "../components-css/TimelineItem.css";
 
 function TimelineItem({ data }) {
   return (

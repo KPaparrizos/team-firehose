@@ -1,0 +1,37 @@
+.timeline-page-container {
+  background-color: #000000;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  min-height: 88vh;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.timeline-page-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.timeline-page-content p {
+  font-family: inter;
+  font-size: 1.75vw;
+  font-weight: 700;
+  width: 55%;
+  margin: 0;
+}
+
+.timeline-page-title {
+  top: 10%;
+}
+
+.timeline-page-title h1 {
+  font-size: 3vw;
+  margin-bottom: 1vw;
+}

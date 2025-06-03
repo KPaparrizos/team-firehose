@@ -1,38 +1,15 @@
 import "../App.css";
+import "../pages-css/TeamPage.css";
 import Footer from "../components/Footer";
 
 function TeamPage() {
   return (
-    <div
-      style={{
-        backgroundColor: "#000000",
-        width: "100%",
-        color: "white",
-        display: "flex",
-        flexFlow: "column",
-        minHeight: "88vh",
-        flexGrow: "1",
-        justifyContent: "space-between",
-      }}
-    >
+    <div className="team-page-container">
       <div>
-        <div
-          style={{
-            position: "relative",
-            display: "flex",
-            alignItems: "center",
-            textAlign: "center",
-            justifyContent: "center",
-            flexDirection: "column",
-          }}
-        >
-          <div style={{ top: "10%" }}>
-            <h1 style={{ fontSize: "3vw", marginBottom: "1rem" }}>
-              Meet the Team
-            </h1>
-            <h2 style={{ fontSize: "1.75vw", marginTop: "0" }}>
-              Coming soon...
-            </h2>
+        <div className="team-page-content">
+          <div className="team-page-title">
+            <h1>Meet the Team</h1>
+            <h2>Coming soon...</h2>
           </div>
         </div>
       </div>

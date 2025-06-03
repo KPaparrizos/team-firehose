@@ -1,0 +1,39 @@
+.navbar-container nav {
+  background-color: #4b0c0f;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 6rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-family: League Spartan;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.navbar-container h1 {
+  text-align: left;
+  font-size: 2.25vw;
+}
+
+.navbar-container a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-container a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+.navbar-container ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  font-size: 1.75vw;
+  gap: 2vw;
+}

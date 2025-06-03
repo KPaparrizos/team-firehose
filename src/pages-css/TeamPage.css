@@ -1,0 +1,33 @@
+.team-page-container {
+  background-color: #000000;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  min-height: 88vh;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.team-page-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.team-page-title {
+  top: 10%;
+}
+
+.team-page-title h1 {
+  font-size: 3vw;
+  margin-bottom: 1rem;
+}
+
+.team-page-title h2 {
+  font-size: 1.75vw;
+  margin-top: 0;
+}

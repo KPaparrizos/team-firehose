@@ -1,0 +1,86 @@
+.home-page-container {
+  background-color: #000000;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  min-height: 88vh;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.home-page-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.home-page-title img {
+  width: 100%;
+}
+
+.home-page-title-text {
+  position: absolute;
+  top: 10%;
+}
+
+.home-page-title-text h1 {
+  font-size: 7vw;
+  margin-bottom: 1rem;
+}
+
+.home-page-title-text h2 {
+  font-size: 4vw;
+  margin-top: 0;
+}
+
+.home-page-content-summary {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.home-page-content-summary p {
+  font-family: inter;
+  font-size: 1.75vw;
+  font-weight: 700;
+  width: 55%;
+}
+
+.home-page-content-question {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 5rem;
+}
+
+.home-page-content-question img {
+  width: 80%;
+}
+
+.home-page-content-question-text {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+
+.home-page-content-question-text h1 {
+  font-size: 3vw;
+  margin-bottom: 1rem;
+}
+
+.home-page-content-question-text p {
+  font-family: inter;
+  font-size: 1.75vw;
+  font-weight: 700;
+  margin: 0 auto;
+  width: 55%;
+}
