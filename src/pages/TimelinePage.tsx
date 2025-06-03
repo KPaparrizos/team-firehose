@@ -16,7 +16,9 @@ function TimelinePage() {
         </p>
       </div>
       <Timeline></Timeline>
-      <Footer></Footer>
+      <div className="timeline-page-footer">
+        <Footer></Footer>
+      </div>
     </div>
   );
 }
