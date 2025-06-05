@@ -1,8 +1,0 @@
-[build]
-  # This should match your build output directory (e.g., "dist", "build")
-  publish = "dist" # Or "build" if you are using Create React App
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
