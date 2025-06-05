@@ -4,7 +4,7 @@
   color: white;
   display: flex;
   flex-flow: column;
-  min-height: 88vh;
+  min-height: 88dvh;
   flex-grow: 1;
   justify-content: space-between;
 }
@@ -50,7 +50,7 @@
 
 @media only screen and (max-aspect-ratio: 1/1) {
   .contact-page-container {
-    min-height: 92vh;
+    min-height: 92dvh;
   }
   .contact-page-center h1 {
     font-size: 8vw;

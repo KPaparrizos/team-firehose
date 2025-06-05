@@ -4,7 +4,7 @@
   color: white;
   display: flex;
   flex-flow: column;
-  min-height: 88vh;
+  min-height: 88dvh;
   flex-grow: 1;
   justify-content: space-between;
 }
@@ -87,7 +87,7 @@
 
 @media only screen and (max-aspect-ratio: 1/1) {
   .home-page-container {
-    min-height: 92vh;
+    min-height: 92dvh;
   }
   .home-page-title img {
     width: 100%;
@@ -96,7 +96,7 @@
   }
   .home-page-title-text h1 {
     font-size: 10vw;
-    margin-bottom: .05rem;
+    margin-bottom: 0.05rem;
   }
   .home-page-title-text h2 {
     font-size: 6vw;
@@ -121,6 +121,6 @@
   }
   .home-page-content-question-text p {
     font-size: 4vw;
-    width: 80%
+    width: 80%;
   }
 }

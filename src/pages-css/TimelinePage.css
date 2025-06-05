@@ -5,7 +5,7 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  min-height: 88vh;
+  min-height: 88dvh;
   flex-grow: 1;
   justify-content: space-between;
 }
@@ -40,10 +40,9 @@
   width: 100%;
 }
 
-
 @media only screen and (max-aspect-ratio: 1/1) {
   .timeline-page-container {
-    min-height: 92vh;
+    min-height: 92dvh;
   }
   .timeline-page-content p {
     font-size: 4vw;

@@ -20,7 +20,7 @@
     width: 65%;
     margin: 8vw;
   }
-  .timeline-container::after{
+  .timeline-container::after {
     left: calc(50% - 0.5vw);
     width: 1vw;
   }
