@@ -1,14 +1,21 @@
+import { useState } from "react";
 import "../App.css";
 import "../components-css/Navbar.css";
 
 function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="navbar-container">
-      <nav>
+      <nav className={menuOpen ? "open" : ""}>
         <h1>
           <a href="/">Team FIREHOSE</a>
         </h1>
-        <ul>
+        <div className="navbar-menu" onClick={() => setMenuOpen(!menuOpen)}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul className={menuOpen ? "open" : ""}>
           <li>
             <a href="/">Home</a>
           </li>

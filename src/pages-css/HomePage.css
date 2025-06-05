@@ -90,7 +90,7 @@
     min-height: 92vh;
   }
   .home-page-title img {
-    width: none;
+    width: 100%;
     height: 40vw;
     object-fit: cover;
   }
@@ -111,10 +111,10 @@
     width: 80%;
   }
   .home-page-content-question img {
-    width: 110%;
+    width: 100%;
   }
   .home-page-content-question-text {
-    top: 10%;
+    top: 2%;
   }
   .home-page-content-question-text h1 {
     font-size: 8vw;
