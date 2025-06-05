@@ -24,12 +24,12 @@ html {
 }
 
 .app-page {
-  padding-top: 6rem;
+  padding-top: 12dvh;
   width: 100%;
 }
 
 @media only screen and (max-aspect-ratio: 1/1) {
   .app-page {
-    padding-top: 4rem;
+    padding-top: 6dvh;
   }
 }
