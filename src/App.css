@@ -16,4 +16,20 @@ html {
   box-sizing: border-box; /* Makes width and height calculations include padding and border */
 }
 
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
 
+.app-page {
+  padding-top: 6rem;
+  width: 100%;
+}
+
+@media only screen and (max-aspect-ratio: 1/1) {
+  .app-page {
+    padding-top: 4rem;
+  }
+}

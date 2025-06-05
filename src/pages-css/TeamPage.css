@@ -31,3 +31,16 @@
   font-size: 1.75vw;
   margin-top: 0;
 }
+
+@media only screen and (max-aspect-ratio: 1/1) {
+  .team-page-container {
+    min-height: 92vh;
+  }
+  .team-page-title h1 {
+    font-size: 8vw;
+    margin-bottom: 4vw;
+  }
+  .team-page-title h2 {
+    font-size: 4vw;
+  }
+}

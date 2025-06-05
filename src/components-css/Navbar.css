@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 6rem;
+  height: 12vh;
   position: fixed;
   top: 0;
   left: 0;
@@ -36,5 +36,11 @@
   display: flex;
   font-size: 1.75vw;
   gap: 2vw;
+}
+
+@media only screen and (max-aspect-ratio: 1/1) {
+  .navbar-container nav {
+    height: 8vh;
+  }
 }
 

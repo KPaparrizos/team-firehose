@@ -42,8 +42,11 @@
 
 
 @media only screen and (max-aspect-ratio: 1/1) {
+  .timeline-page-container {
+    min-height: 92vh;
+  }
   .timeline-page-content p {
-    font-size: 3vw;
+    font-size: 4vw;
     width: 70%;
   }
   .timeline-page-title h1 {

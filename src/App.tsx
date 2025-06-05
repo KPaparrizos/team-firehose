@@ -27,23 +27,9 @@ function App() {
   }
 
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        width: "100%",
-      }}
-    >
+    <div className="app-container">
       <Navbar></Navbar>
-      <div
-        style={{
-          paddingTop: "6rem",
-          width: "100%",
-        }}
-      >
-        {component}
-      </div>
+      <div className="app-page">{component}</div>
     </div>
   );
 }

@@ -47,3 +47,22 @@
   width: 2vw;
   height: 2vw;
 }
+
+@media only screen and (max-aspect-ratio: 1/1) {
+  .contact-page-container {
+    min-height: 92vh;
+  }
+  .contact-page-center h1 {
+    font-size: 8vw;
+    margin-bottom: 4vw;
+  }
+  .contact-page-link h2 {
+    font-size: 4vw;
+    margin-bottom: 3vw;
+  }
+  .contact-page-link img {
+    width: 6vw;
+    height: 6vw;
+    margin-bottom: 3vw;
+  }
+}
