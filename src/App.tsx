@@ -15,7 +15,7 @@ function App() {
     case "/gallery":
       component = <GalleryPage></GalleryPage>;
       break;
-    case "/meet-the-team":
+    case "/team":
       component = <TeamPage></TeamPage>;
       break;
     case "/timeline":

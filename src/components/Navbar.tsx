@@ -23,7 +23,7 @@ function Navbar() {
             <a href="/gallery">Gallery</a>
           </li>
           <li>
-            <a href="/meet-the-team">Meet the Team</a>
+            <a href="/team">Team</a>
           </li>
           <li>
             <a href="/timeline">Timeline</a>
