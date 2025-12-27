@@ -10,5 +10,21 @@
     }
 
 .headshot-container img { 
-    max-width: 15rem;
+    max-width: 12vw;
+}
+
+@media only screen and (max-aspect-ratio: 1/1) {
+    .headshot-container {
+    max-width: 40vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #222222;
+    border: 0.3vw solid grey;
+    }
+  .headshot-container img { 
+    max-width: 30vw;
+    }
 }
