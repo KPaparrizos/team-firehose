@@ -16,6 +16,26 @@
   text-align: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 4vw;
+}
+
+.team-page-student-photos { 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  padding-bottom: 1.5vw;
+  margin: auto;
+}
+
+.team-page-faculty-photos { 
+  padding-top: 1.5vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .team-page-title {
@@ -24,7 +44,7 @@
 
 .team-page-title h1 {
   font-size: 3vw;
-  margin-bottom: 1rem;
+  margin-bottom: 2vw;
 }
 
 .team-page-title h2 {

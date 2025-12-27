@@ -2,6 +2,7 @@ import "../App.css";
 import "../pages-css/GalleryPage.css";
 import Footer from "../components/Footer";
 import infographic from "../assets/1.png";
+import teamPhoto from "../assets/_DSC2416.jpg";
 
 function GalleryPage() {
   return (
@@ -11,8 +12,12 @@ function GalleryPage() {
           <h1>Gallery</h1>
         </div>
         <div className="gallery-page-infographic">
-          <img src={infographic} alt="Team FIREHOSE infographic" />
-          <p>Team FIREHOSE infographic</p>
+          <img src={infographic} alt="Team FIREHOSE Infographic" />
+          <p>Team FIREHOSE Infographic</p>
+        </div>
+        <div className="gallery-page-infographic">
+          <img src={teamPhoto} alt="Team FIREHOSE Team Photo" />
+          <p>Team FIREHOSE Team Photo</p>
         </div>
       </div>
 
@@ -22,3 +27,4 @@ function GalleryPage() {
 }
 
 export default GalleryPage;
+

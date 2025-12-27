@@ -1,0 +1,14 @@
+.headshot-container {
+    max-width: 15vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #222222;
+    border: 0.3vw solid grey;
+    }
+
+.headshot-container img { 
+    max-width: 15rem;
+}
