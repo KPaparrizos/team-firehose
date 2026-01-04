@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-right: 2vw;
+  padding-right: 3vw;
   position: relative;
   margin: 1vw 0;
   width: 50%;
@@ -15,68 +15,68 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-left: 2vw;
+  padding-left: 3vw;
   padding-right: 0;
 }
 
 .timeline-item:nth-child(15n) {
-  background-color: #FFF200;
+  background-color: #FF0000;
 }
 
 .timeline-item:nth-child(15n + 1) {
-  background-color: #FFE000;
+  background-color: #FFF200;
 }
 
 .timeline-item:nth-child(15n + 2) {
-  background-color: #FFCE00;
+  background-color: #FFE000;
 }
 
 .timeline-item:nth-child(15n + 3) {
-  background-color: #FFBC00;
+  background-color: #FFCE00;
 }
 
 .timeline-item:nth-child(15n + 4) {
-  background-color: #FFAA00;
+  background-color: #FFBC00;
 }
 
 .timeline-item:nth-child(15n + 5) {
-  background-color: #FF9800;
+  background-color: #FFAA00;
 }
 
 .timeline-item:nth-child(15n + 6) {
-  background-color: #FF8600;
+  background-color: #FF9800;
 }
 
 .timeline-item:nth-child(15n + 7) {
-  background-color: #FF7400;
+  background-color: #FF8600;
 }
 
 .timeline-item:nth-child(15n + 8) {
-  background-color: #FF6200;
+  background-color: #FF7400;
 }
 
 .timeline-item:nth-child(15n + 9) {
-  background-color: #FF5000;
+  background-color: #FF6200;
 }
 
 .timeline-item:nth-child(15n + 10) {
-  background-color: #FF3E00;
+  background-color: #FF5000;
 }
 
 .timeline-item:nth-child(15n + 11) {
-  background-color: #FF2C00;
+  background-color: #FF3E00;
 }
 
 .timeline-item:nth-child(15n + 12) {
-  background-color: #FF1A00;
+  background-color: #FF2C00;
 }
 
 .timeline-item:nth-child(15n + 13) {
-  background-color: #FF0800;
+  background-color: #FF1A00;
 }
 
 .timeline-item:nth-child(15n + 14) {
-  background-color: #FF0000;
+  background-color: #FF0800;
 }
 
 .timeline-item-content time {
@@ -120,7 +120,7 @@
   }
   .timeline-item-content time {
     font-size: 4vw;
-    line-height: 0.5vw;
+    line-height: 4vw;
   }
   .timeline-item-content p {
     font-size: 3vw;

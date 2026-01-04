@@ -1,8 +1,8 @@
 import "../App.css";
 import "../pages-css/GalleryPage.css";
 import Footer from "../components/Footer";
-import infographic from "../assets/1.png";
-import teamPhoto from "../assets/_DSC2416.jpg";
+import infographic from "../assets/1.webp";
+import teamPhoto from "../assets/_DSC2416.webp";
 
 function GalleryPage() {
   return (

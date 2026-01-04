@@ -1,5 +1,5 @@
-import backgroundImage from "../assets/firemanfirefighter-training-firefighters-using-water-260nw-2505564303.png";
-import nozzleImage from "../assets/nozzle.png";
+import backgroundImage from "../assets/firemanfirefighter-training-firefighters-using-water-260nw-2505564303 (1).webp";
+import nozzleImage from "../assets/nozzle.webp";
 import "../App.css";
 import "../pages-css/HomePage.css";
 import Footer from "../components/Footer";

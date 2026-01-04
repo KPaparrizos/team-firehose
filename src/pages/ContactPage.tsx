@@ -1,7 +1,7 @@
 import "../App.css";
 import "../pages-css/ContactPage.css";
 import Footer from "../components/Footer";
-import instagramLogo from "../assets/Instagram_icon.png";
+import instagramLogo from "../assets/Instagram_icon.webp";
 import gmailLogo from "../assets/google-gmail-512.webp";
 
 function ContactPage() {

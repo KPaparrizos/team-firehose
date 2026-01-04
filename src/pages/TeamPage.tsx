@@ -2,17 +2,17 @@ import "../App.css";
 import "../pages-css/TeamPage.css";
 import Footer from "../components/Footer";
 import Headshot from "../components/Headshot";
-import helenHeadshot from "../assets/Helen Headshot_Cropped.jpg";
-import lukeHeadshot from "../assets/Luke Headshot_Cropped (1).jpg";
-import emmaKHeadshot from "../assets/Emma K Headshot_Cropped.jpg";
-import alexHeadshot from "../assets/Alex headshot_red background.png";
-import emmaMHeadshot from "../assets/Emma M Headshot_Cropped.jpg";
-import kostasHeadshot from "../assets/Kostas Headshot_Cropped.jpg";
-import ryderHeadshot from "../assets/Ryder Headshot_Cropped.jpg";
-import ethanHeadshot from "../assets/Ethan Headshot_Cropped.jpg";
-import savannahHeadshot from "../assets/Savannah Headshot_Cropped.jpg";
-import peterHeadshot from "../assets/images (5).jpg";
-import celinaHeadshot from "../assets/Celina McDonald.png";
+import helenHeadshot from "../assets/Helen Headshot_Cropped.webp";
+import lukeHeadshot from "../assets/Luke Headshot_Cropped (1).webp";
+import emmaKHeadshot from "../assets/Emma K Headshot_Cropped.webp";
+import alexHeadshot from "../assets/Alex headshot_red background.webp";
+import emmaMHeadshot from "../assets/Emma M Headshot_Cropped.webp";
+import kostasHeadshot from "../assets/Kostas Headshot_Cropped.webp";
+import ryderHeadshot from "../assets/Ryder Headshot_Cropped.webp";
+import ethanHeadshot from "../assets/Ethan Headshot_Cropped.webp";
+import savannahHeadshot from "../assets/Savannah Headshot_Cropped.webp";
+import peterHeadshot from "../assets/images (5).webp";
+import celinaHeadshot from "../assets/Celina McDonald.webp";
 
 
 function TeamPage() {

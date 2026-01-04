@@ -1,5 +1,5 @@
-import gemstoneLogo from "../assets/g_honors_college.png";
-import honorsLogo from "../assets/honors_logo.png";
+import gemstoneLogo from "../assets/g_honors_college.webp";
+import honorsLogo from "../assets/honors_logo.webp";
 import "../App.css";
 import "../components-css/Footer.css";
 

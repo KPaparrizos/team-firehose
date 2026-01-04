@@ -65,6 +65,7 @@ function Timeline() {
   if (timelineData.length > 0) {
     return (
       <div className="timeline-container">
+      <div className="timeline-nozzle"></div>
         {timelineData.map((data, idx) => (
           <TimelineItem data={data} key={idx} />
         ))}
