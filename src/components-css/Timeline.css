@@ -61,17 +61,17 @@
   }
   .timeline-container::before {
     transform: translateX(-50%);
-    border-bottom: 5.208333vw solid #8d8c8a;
-    border-left: 1.30208333333vw solid transparent;
-    border-right: 1.30208333333vw solid transparent;
-    width: 1.66vw;
+    border-bottom: 4vw solid #8d8c8a;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+    width: 1.2vw;
   }
   .timeline-nozzle::after {
-    left: -2.33333333334vw;
-    top: 5.2vw;
+    left: -1.8vw;
+    top: 3.2vw;
 
-    width: 4.66666666667vw;
-    height: 0.5vw;
+    width: 3.6vw;
+    height: 0.8vw;
   }
 
 }
