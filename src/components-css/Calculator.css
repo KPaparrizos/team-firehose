@@ -1,0 +1,150 @@
+.calculator-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 2vw auto;
+  padding: 2vw;
+  background-color: #000;
+}
+
+.calculator-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vw;
+}
+
+/* Core Row Layout */
+.calculator-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5vw;
+  min-height: 4vw;
+}
+
+.calculator-row label {
+  flex: 1.5;
+  font-family: inter, sans-serif;
+  font-size: 1.5vw;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+}
+
+.calculator-row input {
+  flex: 1;
+  padding: 0.8vw;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  color: white;
+  border-radius: 4px;
+  font-size: 1.2vw;
+  font-family: inter;
+}
+
+.calculator-row select {
+  flex: 0.6;
+  padding: 0.8vw;
+  background: #222;
+  color: white;
+  border: 1px solid #333;
+  border-radius: 4px;
+  font-size: 1.1vw;
+}
+
+/* Specific Style for Multi-Formula Row */
+.formula-options {
+  flex: 1.6;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vw;
+  text-align: left;
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  font-size: 1.1vw;
+  font-weight: 400 !important;
+  cursor: pointer;
+}
+
+.custom-checkbox input {
+  flex: none;
+  width: 1.2vw;
+  height: 1.2vw;
+  accent-color: #e21833;
+}
+
+/* Full width select for the method toggle */
+.full-width-select {
+  flex: 1.6 !important;
+}
+
+/* Results section matches the form layout */
+.results-container {
+  margin-top: 3vw;
+  padding-top: 2vw;
+  border-top: 1px solid #333;
+}
+
+.result-row {
+  border-bottom: 1px solid #111;
+}
+
+.result-row label {
+  color: #888;
+  font-size: 1.2vw;
+}
+
+.result-value {
+  flex: 1.6;
+  text-align: left;
+  font-family: inter;
+  font-size: 1.8vw;
+  font-weight: 700;
+  color: #e21833;
+}
+
+/* Button & Error */
+.calc-button {
+  margin-top: 2vw;
+  background-color: #e21833;
+  color: white;
+  padding: 1.2vw;
+  border: none;
+  border-radius: 4px;
+  font-family: inter;
+  font-weight: 700;
+  font-size: 1.5vw;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.calc-button:hover {
+  background-color: #b30000;
+}
+
+.error-message {
+  color: #ff4d4d;
+  font-family: inter;
+  font-size: 1.1vw;
+  text-align: left;
+  margin: 0;
+}
+
+/* Responsive Stacking */
+@media only screen and (max-aspect-ratio: 1/1) {
+  .calculator-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vw;
+    margin-bottom: 3vw;
+  }
+  .calculator-row label, .calculator-row input, .calculator-row select, .calc-button, .result-value {
+    font-size: 4.5vw;
+    width: 100%;
+  }
+  .custom-checkbox { font-size: 4vw; }
+  .custom-checkbox input { width: 5vw; height: 5vw; }
+}

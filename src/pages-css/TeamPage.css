@@ -1,0 +1,94 @@
+.team-page-container {
+  background-color: #000000;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  min-height: 88dvh;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.team-page-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 4vw;
+}
+
+.team-page-student-photos { 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 60vw;
+  padding-bottom: 1.5vw;
+  margin: auto;
+}
+
+.team-page-faculty-photos { 
+  padding-top: 1.5vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 60v2;
+  margin: auto;
+}
+
+.team-page-title {
+  top: 10%;
+}
+
+.team-page-title h1 {
+  font-size: 3vw;
+  margin-bottom: 2vw;
+}
+
+.team-page-title h2 {
+  font-size: 1.75vw;
+  margin-top: 0;
+}
+
+@media only screen and (max-aspect-ratio: 1/1) {
+  .team-page-container {
+    min-height: 92dvh;
+  }
+  .team-page-title h1 {
+    font-size: 8vw;
+    margin-bottom: 4vw;
+  }
+  .team-page-title h2 {
+    font-size: 4vw;
+  }
+  .team-page-student-photos { 
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 60vw;
+    padding-bottom: 1.5vw;
+    margin: auto;
+    }
+
+  .team-page-faculty-photos { 
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1.5vw;
+    gap: 20px;
+    max-width: 60v2;
+    margin: auto;
+    }
+}
