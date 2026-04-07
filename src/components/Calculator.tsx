@@ -107,7 +107,7 @@ function Calculator() {
 
     setLoading(true);
     try {
-      const response = await fetch("https://firehose-backend.vercel.app/", {
+      const response = await fetch("https://firehose-backend.vercel.app/calculate-force", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...inputs, flowMethod, selectedFormulas }),
