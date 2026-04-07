@@ -236,7 +236,7 @@ function Calculator() {
         {isFieldRequired("wheelRadius") && (
           <div className="calculator-row">
             <label>Wheel Radius</label>
-            <input type="number" placeholder="0.00" value={inputs.wheelRadius.value} onChange={(e) => handleInputChange("wheelRadius", "value", e.target.value)} />
+            <input type="number" placeholder="22.75" value={inputs.wheelRadius.value} onChange={(e) => handleInputChange("wheelRadius", "value", e.target.value)} />
             <select value={inputs.wheelRadius.unit} onChange={(e) => handleInputChange("wheelRadius", "unit", e.target.value)}>
               <option value="cm">cm</option>
               <option value="in">in</option>
@@ -247,7 +247,7 @@ function Calculator() {
         {isFieldRequired("rodLength") && (
           <div className="calculator-row">
             <label>Rod Length</label>
-            <input type="number" placeholder="0.00" value={inputs.rodLength.value} onChange={(e) => handleInputChange("rodLength", "value", e.target.value)} />
+            <input type="number" placeholder="7.62" value={inputs.rodLength.value} onChange={(e) => handleInputChange("rodLength", "value", e.target.value)} />
             <select value={inputs.rodLength.unit} onChange={(e) => handleInputChange("rodLength", "unit", e.target.value)}>
               <option value="cm">cm</option>
               <option value="in">in</option>
